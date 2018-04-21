@@ -10,4 +10,45 @@ body {
   text-align: center;
 }
 
+search-tools {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+#display {
+  margin: 0 auto;
+  max-width: 500 px;
+  text-align: left;
+}
+
+#display img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 300px;
+}
+
+#display h2 {
+  text-align: center;
+}
+
+#auto-suggestions {
+  display: none;
+  border: 1px solid grey;
+  margin: 0 auto;
+  max-width: 25%
+}
+/* go back and select pseudoclass */
+#suggestion {
+  background-color: transparent;
+  border: none;
+}
+#suggestion {
+  outline: none;
+}
+#suggestion {
+  color: #ff0000
+}
+
 /* place your styles below */
